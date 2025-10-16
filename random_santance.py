@@ -20,4 +20,5 @@ while True:
     rondom_adverbes = grt_rondom_wors(adverbes)
     rondom_details = grt_rondom_wors(details)
     print(f"{rondom_names} from {rondom_places} {rondom_adverbes} {rondom_verbes} {rondom_nouns}")
-    break
+    print("Click [Enter] for new sentence.")
+    new_sentence = input()

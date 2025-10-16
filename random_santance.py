@@ -22,3 +22,6 @@ while True:
     print(f"{rondom_names} from {rondom_places} {rondom_adverbes} {rondom_verbes} {rondom_nouns}")
     print("Click [Enter] for new sentence.")
     new_sentence = input()
+    if new_sentence == "exit":
+        break
+
